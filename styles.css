@@ -1,0 +1,78 @@
+/* Réinitialiser les marges */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+/* En-tête */
+header {
+  background-color: #6f4c3b;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Menu */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Formulaire */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #6f4c3b;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b6b54;
+}
+
+/* Pied de page */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
