@@ -2,17 +2,62 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Café de Villemomble</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- En-tête -->
   <header>
-    <h1>☕ Café de Villemomble ☕</h1>
+    <h1>☕ Bienvenue au Café de Villemomble ☕</h1>
   </header>
-  <main>
-    <p>Bienvenue dans notre café chaleureux où chaque tasse est une histoire.</p>
-  </main>
+
+  <!-- Section Accueil -->
+  <section class="welcome">
+    <p>Un endroit où le café rime avec convivialité et qualité.</p>
+  </section>
+
+  <!-- Section Menu -->
+  <section class="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li>☕ Café Espresso</li>
+      <li>🍰 Pâtisserie maison</li>
+      <li>🥗 Options végétariennes</li>
+    </ul>
+  </section>
+
+  <!-- Section Horaires -->
+  <section class="horaires">
+    <h2>Nos Horaires</h2>
+    <p>Lundi - Vendredi : 8h - 20h</p>
+    <p>Samedi : 9h - 22h</p>
+    <p>Dimanche : Fermé</p>
+  </section>
+
+  <!-- Formulaire de contact -->
+  <section class="contact">
+    <h2>Réservez une table ou contactez-nous</h2>
+    <form id="contactForm">
+      <label for="name">Votre nom :</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Votre email :</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Votre message :</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="responseMessage"></p>
+  </section>
+
   <footer>
-    <p>Contactez-nous : contact@cafedevillemomble.com</p>
+    <p>📍 Adresse : 123 Rue de Villemomble - Paris</p>
+    <p>📧 contact@cafedevillemomble.com</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
